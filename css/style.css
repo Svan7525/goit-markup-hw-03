@@ -14,12 +14,16 @@
   --primary-font-family: 'Roboto', sans-serif;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--primary-text-color);
   background-color: var(--background-section-color);
   font-family: var(--primary-font-family);
   font-size: 14px;
-  /* line-height: 1.71; */
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
